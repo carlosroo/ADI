@@ -11,7 +11,7 @@ Instalar las dependencias:
 
 pip install -r requeriments.txt
 
-Se puede lanzar en un terminal el servidor:
+Para lanzar el servidor:
 
 python3 -m dirApiScripts.server
 
@@ -19,6 +19,6 @@ Las diferentes opciones son:
 
 -a, --admin Establece un token de administracion -p, --port Establece un puerto de escucha -l, --listening Establece una direccion de escucha -d, --db Establece la ruta de la base de datos
 
-Y en otro el cliente (que ejecuta código de prueba):
+Para lanzar el cliente de pruebas:
 
 python3 -m dirApiScripts.client
